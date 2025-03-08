@@ -28,6 +28,8 @@ bin/
 # 忽略依赖库（如果是 Maven/Gradle 项目，依赖会自动下载）
 lib/
 *.jar
+!sentinel-dashboard-1.7.0.jar
+!zipkin-server-2.12.9-exec.jar
 *.war
 *.ear
 
